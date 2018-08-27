@@ -1,0 +1,128 @@
+{
+	"name": "Streadata.io API Gallery - Advanced",
+	"description": "This is a repository of advanced APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/advanced.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://advanced.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Advanced",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Advanced",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/3dcart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Shield",
+			"x-api-slug": "aws-shield",
+			"description": "AWS Shield is a managed Distributed Denial of Service protection service that safeguards web applications running on AWS. AWS Shield provides always-on detection and automatic inline mitigations that minimize application downtime and latency, so there is no need to engage AWS Support to benefit from DDoS protection. There are two tiers of AWS Shield, Standard and Advanced. All AWS customers benefit from the automatic protections of AWS Shield Standard, at no additional charge. AWS Shield Standard defends against most common, frequently occurring network and transport layer DDoS attacks that target your web site or applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2016-12-30 at 10.35.48 PM.png",
+			"humanURL": "https://aws.amazon.com/shield/",
+			"baseURL": ":///",
+			"tags": "Advanced",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/aws-shield/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Advanced",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"x-api-slug": "oxford-dictionaries",
+			"description": "If you&rsquo;re looking to enhance your app or website with dictionary data, don&rsquo;t compromise on quality. The Oxford Dictionaries API offers easy and intuitive access to Oxfords dictionary content, which is trusted around the world. Here at Oxford Dictionaries, home of the OED, we love words. That&rsquo;s why we have experienced lexicographers tracking the living language, delving deep into our corpora and monitoring a wide range of media in order to understand how words are being used and how language is evolving. This research is used by our editors to write and edit dictionary entries and translations, meaning we&rsquo;re able to offer up-to-date, accurate, and reliable lexical content in multiple languages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oxford-dictionaries-api.png",
+			"humanURL": "https://developer.oxforddictionaries.com/",
+			"baseURL": "https://od-api-demo.oxforddictionaries.com:443//api/v1",
+			"tags": "Advanced",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/oxford-dictionaries/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChainGenie",
+			"x-api-slug": "chaingenie",
+			"description": "ChainGenie provides a plug and play platform that helps you connect your existing (or create new) applications to DLTs for lodging and workflow management using a simple easy to use user interface. ChainGenie is a platform to create blockchain apps that provide speed-to-market for companies looking to launch faster, rather than reinvent the wheel. Write your applications to run on popular Blockchain networks like Ethereum, Bitcoin Blockchain etc with great ease when you require to validate credentials or make your existing traditional applications use the power of DLT and blockchain overnight!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28902-api-chaingenie-com.jpg",
+			"humanURL": "http://chaingenie.com",
+			"baseURL": "https://api.chaingenie.com//api/v1",
+			"tags": "Advanced",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/chaingenie/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Advanced",
+	"include": [
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/3dcart/apis.yaml"
+		},
+		{
+			"name": "AWS Shield",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/aws-shield/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/oxford-dictionaries/apis.yaml"
+		},
+		{
+			"name": "ChainGenie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/advanced/master/_listings/chaingenie/apis.yaml"
+		}
+	]
+}
